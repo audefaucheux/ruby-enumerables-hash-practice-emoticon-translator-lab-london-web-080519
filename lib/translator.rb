@@ -17,7 +17,7 @@ def get_japanese_emoticon(file, emoticon)
   translator = load_library(file)
   if translator[:get_emoticon][emoticon]
     return translator[:get_emoticon][emoticon]
-  else return "Sorry, that emoticon was not found" 
+  else return "Sorry, that emoticon was not found"
   end  
 end
 
