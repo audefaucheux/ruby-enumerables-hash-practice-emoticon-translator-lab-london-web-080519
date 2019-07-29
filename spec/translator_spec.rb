@@ -37,7 +37,7 @@ describe "#load_library" do
       emoticons = {
         "☜(⌒▽⌒)☞" => "angel",
         "(ΘεΘ;)" => "bored",
-        "o_O" => "surprised", 
+        "o_O" => "surprised",
         "(^_-)" => "wink"
       }
       emoticons.each do |japanese_emoticon,meaning|
