@@ -7,9 +7,8 @@ def load_library(file)
   translator = {:"get_meaning" => {}, :"get_emoticon" => {}}
   emoticons.each { |key, value|
     translator[:get_meaning][value[1]] = "test"
-    return translator
   }
-  translator
+  return translator
 end
 
 def get_japanese_emoticon
