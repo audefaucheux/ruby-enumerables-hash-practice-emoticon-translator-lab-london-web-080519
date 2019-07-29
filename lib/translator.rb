@@ -12,10 +12,10 @@ def load_library(file)
   return translator
 end
 
-def get_japanese_emoticon(file, emoticons)
+def get_japanese_emoticon(file, emoticon)
   # code goes here
   translator = load_library(file)
-  return translator[:get_emoticon][emoticons]
+  return translator[:get_emoticon][emoticon]
 end
 
 def get_english_meaning
