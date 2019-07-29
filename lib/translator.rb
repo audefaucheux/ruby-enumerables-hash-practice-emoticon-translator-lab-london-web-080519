@@ -15,7 +15,7 @@ end
 def get_japanese_emoticon(file, emoticons)
   # code goes here
   translator = load_library(file)
-  return translator[:get_meaning][emoticons]
+  return "test"#translator[:get_meaning][emoticons]
 end
 
 def get_english_meaning
